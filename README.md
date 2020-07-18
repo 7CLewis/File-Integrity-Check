@@ -12,6 +12,6 @@ Best used for a directory with stagnant files that will not be commonly changed
 This program contains a number of shortcomings. Here are a few that I can think of:
 * You are not notified when a file is changed, so you have to continuously check the log file to make sure nothing has changed
 * It only does not descend into subdirectories, so you would need to replicate the file for each directory in which you need to verify the integrity of the files.
-* If a file in the directory you are checking was modified on purpose, you would need to manually reset the 'file_integrity.sh' file and 'sums.txt' file
+* If a file in the directory you are checking was modified on purpose, you would need to manually reset the 'file_integrity.sh' file and 'sums.txt'. 
 
-So, with all of those shortcomings, what is the point of this, you may ask? Well, this is my starting point in file integrity. I wanted to get a feel for bash scripting and file integrity, and this will be a great starting point for me to continue to build on, and hopefully a good first look for anyone else interested in these things.
+Despite this, the program still serves as a good first look for anyone else interested in these things.
